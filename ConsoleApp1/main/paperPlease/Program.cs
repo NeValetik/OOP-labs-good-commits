@@ -9,8 +9,8 @@ public class Program
 
         string? outterpath = "C:\\Users\\snowc\\Desktop\\oop labs\\truLab1\\PapersPlease\\PapersPlease\\lab-papers-please\\c#-classification\\src\\main\\resources\\output";
 
-
-        
+        JsonReader jsonReader = new JsonReader(path);
+        EntityData? individuals = jsonReader.GetEntities();
     }
 }
 
