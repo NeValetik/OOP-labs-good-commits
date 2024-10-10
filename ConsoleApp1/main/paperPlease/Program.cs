@@ -34,6 +34,10 @@ public class Program
                 new Race(true, "Earth", 200, new List<string> { "SHORT", "BULKY" })
             }
         });
+
+        Classification classification = new(ruleSet);
+
+        Dictionary<string, Universe> universes = classification.Process(individuals);
     }
 }
 
