@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\entitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\entitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\entitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\entitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 334,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "JsonReader.cs",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\JsonReader.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\paperPlease\\JsonReader.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\JsonReader.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\paperPlease\\JsonReader.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:20:32.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EntityData.cs",
               "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\EntityData.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\paperPlease\\EntityData.cs",
@@ -45,7 +62,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\paperPlease\\Entity.cs",
               "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\Entity.cs",
               "RelativeToolTip": "ConsoleApp1\\main\\paperPlease\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T19:16:32.658Z",
               "EditorCaption": ""
@@ -58,7 +75,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\paperPlease\\Program.cs",
               "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\main\\paperPlease\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T19:15:31.449Z",
               "EditorCaption": ""
