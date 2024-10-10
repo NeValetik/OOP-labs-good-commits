@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\classification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\classification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\resources\\output\\starwars.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\resources\\output\\starwars.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\resources\\output\\rings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\resources\\output\\rings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\resources\\output\\marvel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\resources\\output\\marvel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\resources\\output\\hitchhiker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\resources\\output\\hitchhiker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\universe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +39,8 @@
       "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\classification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\classification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\entitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\jsonoutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\jsonoutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +62,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 334,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "starWars.json",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\resources\\output\\starWars.json",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\resources\\output\\starWars.json",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\resources\\output\\starWars.json",
+              "RelativeToolTip": "ConsoleApp1\\main\\resources\\output\\starWars.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-10T19:43:27.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "rings.json",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\resources\\output\\rings.json",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\resources\\output\\rings.json",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\resources\\output\\rings.json",
+              "RelativeToolTip": "ConsoleApp1\\main\\resources\\output\\rings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-10T19:43:25.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "marvel.json",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\resources\\output\\marvel.json",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\resources\\output\\marvel.json",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\resources\\output\\marvel.json",
+              "RelativeToolTip": "ConsoleApp1\\main\\resources\\output\\marvel.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-10T19:43:22.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "hitchHiker.json",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\resources\\output\\hitchHiker.json",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\resources\\output\\hitchHiker.json",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\resources\\output\\hitchHiker.json",
+              "RelativeToolTip": "ConsoleApp1\\main\\resources\\output\\hitchHiker.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-10T19:43:19.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JsonOutter.cs",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\JsonOutter.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\JsonOutter.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\JsonOutter.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\JsonOutter.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:35:37.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Universe.cs",
               "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Universe.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\Universe.cs",
               "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Universe.cs",
               "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\Universe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T19:32:33.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "RuleSet.cs",
               "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\RuleSet.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\RuleSet.cs",
@@ -72,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Race.cs",
               "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Race.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\Race.cs",
@@ -85,33 +170,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Classification.cs",
               "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Classification.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\Classification.cs",
               "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Classification.cs",
               "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\Classification.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T19:31:48.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "JsonReader.cs",
               "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\JsonReader.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\JsonReader.cs",
               "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\JsonReader.cs",
               "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\JsonReader.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T19:20:32.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "EntityData.cs",
               "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\EntityData.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\EntityData.cs",
@@ -124,26 +209,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Entity.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\Entity.cs",
               "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Entity.cs",
               "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T19:16:32.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\Program.cs",
               "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T19:15:31.449Z",
               "EditorCaption": ""

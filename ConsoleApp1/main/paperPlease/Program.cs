@@ -5,13 +5,13 @@ public class Program
 {
     static void Main(string[] args)
     {
-        string? path = "C:\\Users\\snowc\\Desktop\\oop labs\\truLab1\\PapersPlease\\PapersPlease\\lab-papers-please\\c#-classification\\src\\main\\resources\\input.json";
+        string? inputPath = "../../../main/resources/input.json";
 
-        string? outterpath = "C:\\Users\\snowc\\Desktop\\oop labs\\truLab1\\PapersPlease\\PapersPlease\\lab-papers-please\\c#-classification\\src\\main\\resources\\output";
+        string? outterPath = "../../../main/resources/output";
 
-        JsonReader jsonReader = new JsonReader(path);
+        JsonReader jsonReader = new JsonReader(inputPath);
         EntityData? individuals = jsonReader.GetEntities();
-
+        
         RuleSet? ruleSet = new(new Dictionary<string, List<Race>>
         {
             ["starWars"] = new List<Race>
@@ -38,6 +38,10 @@ public class Program
         Classification classification = new(ruleSet);
 
         Dictionary<string, Universe> universes = classification.Process(individuals);
+
+        JsonOutter jsonOutter = new JsonOutter(outterPath);
+
+        jsonOutter.WriteUniversesToFile(universes);
     }
 }
 

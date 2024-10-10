@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\jsonreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\universe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\universe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\ruleset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\ruleset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\classification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\classification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\entitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\entitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\entitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\entitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\snowc\\desktop\\lab1-oop\\consoleapp1\\consoleapp1\\main\\paperplease\\jsonoutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E824035-5D05-4E3C-831B-725445B73E61}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\main\\paperplease\\jsonoutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,53 +46,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 334,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JsonReader.cs",
-              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\JsonReader.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\main\\paperPlease\\JsonReader.cs",
-              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\JsonReader.cs",
-              "RelativeToolTip": "ConsoleApp1\\main\\paperPlease\\JsonReader.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "JsonOutter.cs",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\JsonOutter.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\JsonOutter.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\JsonOutter.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\JsonOutter.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T19:20:32.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EntityData.cs",
-              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\EntityData.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\main\\paperPlease\\EntityData.cs",
-              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\EntityData.cs",
-              "RelativeToolTip": "ConsoleApp1\\main\\paperPlease\\EntityData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T19:17:00.491Z"
+              "WhenOpened": "2024-10-10T19:35:37.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\Entity.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\main\\paperPlease\\Entity.cs",
-              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\Entity.cs",
-              "RelativeToolTip": "ConsoleApp1\\main\\paperPlease\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "Universe.cs",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Universe.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\Universe.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Universe.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\Universe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T19:16:32.658Z"
+              "WhenOpened": "2024-10-10T19:32:33.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RuleSet.cs",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\RuleSet.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\RuleSet.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\RuleSet.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\RuleSet.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:32:25.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Race.cs",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Race.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\Race.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Race.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\Race.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:32:22.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Classification.cs",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Classification.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\Classification.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Classification.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\Classification.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:31:48.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "JsonReader.cs",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\JsonReader.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\JsonReader.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\JsonReader.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\JsonReader.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:20:32.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EntityData.cs",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\EntityData.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\EntityData.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\EntityData.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\EntityData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:17:00.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Entity.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\Entity.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Entity.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:16:32.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\main\\paperPlease\\Program.cs",
-              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\paperPlease\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\main\\paperPlease\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAALAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\main\\PaperPlease\\Program.cs",
+              "ToolTip": "C:\\Users\\snowc\\Desktop\\lab1-oop\\ConsoleApp1\\ConsoleApp1\\main\\PaperPlease\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\main\\PaperPlease\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T19:15:31.449Z",
               "EditorCaption": ""
