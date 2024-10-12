@@ -1,0 +1,48 @@
+using System;
+using PaperPlease;
+
+public class Program
+{
+    static void Main(string[] args)
+    {
+        string? inputPath = "../../../main/resources/input.json";
+
+        string? outterPath = "../../../main/resources/output";
+
+        JsonReader jsonReader = new JsonReader(inputPath);
+        EntityData? individuals = jsonReader.GetEntities();
+        
+        RuleSet? ruleSet = new(new Dictionary<string, List<Race>>
+        {
+            ["starWars"] = new List<Race>
+            {
+                new Race(false, "Kashyyyk", 400, new List<string> { "HAIRY", "TALL" }),
+                new Race(false, "Endor", 60, new List<string> { "HAIRY", "SHORT" })
+            },
+            ["hitchHiker"] = new List<Race>
+            {
+                new Race(true, "Betelgeuse", 100, new List<string> { "EXTRA_ARMS", "EXTRA_HEAD" }),
+                new Race(false, "Vogsphere", 200, new List<string> { "GREEN", "BULKY" })
+            },
+            ["marvel"] = new List<Race>
+            {
+                new Race(true, "Asgard", 5000, new List<string> { "BLONDE", "TALL" })
+            },
+            ["rings"] = new List<Race>
+            {
+                new Race(true, "Earth", Double.PositiveInfinity, new List<string> { "BLONDE", "POINTY_EARS" }),
+                new Race(true, "Earth", 200, new List<string> { "SHORT", "BULKY" })
+            }
+        });
+
+        Classification classification = new(ruleSet);
+
+        Dictionary<string, Universe> universes = classification.Process(individuals);
+
+        JsonOutter jsonOutter = new JsonOutter(outterPath);
+
+        jsonOutter.WriteUniversesToFile(universes);
+    }
+}
+
+
