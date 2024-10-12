@@ -16,9 +16,8 @@ namespace PaperPlease
                 { "rings", new Universe("rings", new EntityData()) }
             };
             
-            foreach (var entity in individuals.Data)
+            foreach (var entity in individuals.GetData())
             {
-                // think about naming
                 string? entAffiliatedPlanet = rules.GetTheAffinity(entity);
                 if (!string.IsNullOrEmpty(entAffiliatedPlanet)){
                     universes[entAffiliatedPlanet].individuals.AddEntity(entity);

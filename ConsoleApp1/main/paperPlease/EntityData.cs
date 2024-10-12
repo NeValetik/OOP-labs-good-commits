@@ -4,7 +4,7 @@ namespace PaperPlease
 {
     public class EntityData
     {
-        public List<Entity>? Data { get; set; }
+        private List<Entity>? Data { get; set; }
 
         public void AddEntity(Entity entity)
         {
@@ -14,5 +14,7 @@ namespace PaperPlease
             }
             Data.Add(entity);
         }
+
+        public List<Entity>? GetData() { return Data; }
     }
 }

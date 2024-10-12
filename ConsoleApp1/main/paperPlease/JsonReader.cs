@@ -17,7 +17,7 @@ namespace PaperPlease
             string? jsonText = File.ReadAllText(this.path);
             EntityData? jsonData = JsonSerializer.Deserialize<EntityData>(jsonText);
             
-            if (jsonData != null && jsonData.Data != null) return jsonData;
+            if (jsonData != null && jsonData.GetData() != null) return jsonData;
 
             return null;
         }
