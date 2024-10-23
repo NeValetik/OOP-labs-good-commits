@@ -40,5 +40,9 @@ namespace Lab_2.Task1
                 +"\n");
         }
 
+        public override string ToString() {
+            return $"model {model}";
+        }
+
     }
 }

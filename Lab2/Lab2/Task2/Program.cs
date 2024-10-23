@@ -8,7 +8,7 @@ namespace Lab_2.Task2
 {
     public static class Program
     {
-        /**/
+        /*
         public static void Main(string[] args)
         {
             TextData textData = new(FileReader.readFileIntoString(args[0]));
