@@ -8,11 +8,20 @@ namespace Lab_2.Task4
 {
     public static class Program
     {
-        /*
-        public static void Main()
+        /**/
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            List<TextData> textDatas = new();
+            foreach (string arg in args)
+            {
+                textDatas.Add(new TextData(FileReader.readFileIntoString(arg)));
+            }
+            foreach (TextData textData in textDatas)
+            {
+                Console.WriteLine(textData.ToString());
+            }
+
         }
-        */
+        /**/
     }
 }

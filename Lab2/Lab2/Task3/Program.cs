@@ -9,7 +9,7 @@ namespace Lab_2.Task3
 {
     public static class Program
     {
-        /**/
+        /*
         public static void Main()
         {
             Assistant assist = new("Gosha");

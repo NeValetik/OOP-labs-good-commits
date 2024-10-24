@@ -27,5 +27,6 @@ namespace Lab_2.Task1
             }
         }
         */
+        
     }
 }
