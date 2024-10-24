@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Lab 2": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\snowc\\Desktop\\lab2-oop\\Lab2\\Lab2\\Task2\\ReadFile.txt\r\nC:\\Users\\snowc\\Desktop\\lab2-oop\\Lab2\\Lab2\\Task4\\ReadFile2.txt"
+    }
+  }
+}
