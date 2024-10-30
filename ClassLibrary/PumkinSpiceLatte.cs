@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3.task3
+namespace ClassLibrary
 {
-    public class PumkinSpiceLatte:Cappuccino
+    internal class PumkinSpiceLatte : Cappuccino
     {
         private int _mgOfPumkinkSpice;
         public int mgOfPumkinSpice { get { return _mgOfPumkinkSpice; } set { _mgOfPumkinkSpice = value; } }
@@ -16,11 +16,11 @@ namespace Lab3.task3
         //    Console.WriteLine("Adding " + PmgOfPumkinkSpice + " mg of pumking spice");
         //    _mgOfPumkinkSpice = PmgOfPumkinkSpice;
         //}
-        public PumkinSpiceLatte() { }
+        internal PumkinSpiceLatte() { }
 
-        public PumkinSpiceLatte MakePumkinSpiceLatte(Intensity PcoffeIntensity, string? PcoffyName, int PmlOfMilk, int PmgOfPumkinkSpice)
+        internal PumkinSpiceLatte MakePumkinSpiceLatte(Intensity PcoffeIntensity, string? PcoffyName, int PmlOfMilk, int PmgOfPumkinkSpice)
         {
-            base.MakeCappuccino(PcoffeIntensity, PcoffyName,PmlOfMilk);
+            base.MakeCappuccino(PcoffeIntensity, PcoffyName, PmlOfMilk);
             Console.WriteLine("Adding " + PmgOfPumkinkSpice + " mg of pumking spice");
             mgOfPumkinSpice = PmgOfPumkinkSpice;
             return this;

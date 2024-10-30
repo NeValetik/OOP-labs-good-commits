@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3.task3
+namespace ClassLibrary
 {
-    public class SyrupCappuccino:Cappuccino
+    internal class SyrupCappuccino : Cappuccino
     {
         private SyrupType _syrup;
         public SyrupType syrup { get { return _syrup; } }
@@ -16,9 +16,9 @@ namespace Lab3.task3
         //    Console.WriteLine("Adding " + syrup + " syrup");
         //    _syrup = syrup;
         //}
-        public SyrupCappuccino() { }
+        internal SyrupCappuccino() { }
 
-        public SyrupCappuccino MakeSyrupCappuccino(Intensity PcoffeIntensity, string? PcoffyName, int PmlOfMilk, SyrupType syrup)
+        internal SyrupCappuccino MakeSyrupCappuccino(Intensity PcoffeIntensity, string? PcoffyName, int PmlOfMilk, SyrupType syrup)
         {
             base.MakeCappuccino(PcoffeIntensity, PcoffyName, PmlOfMilk);
             Console.WriteLine("Adding " + syrup + " syrup");

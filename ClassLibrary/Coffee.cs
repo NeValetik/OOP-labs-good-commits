@@ -6,15 +6,15 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3.task3
+namespace ClassLibrary
 {
-    public class Coffee
-    {   
+    internal class Coffee
+    {
         private Intensity _coffeIntensity;
         private string? _coffeName;
 
-        public string? coffeName { get { return _coffeName; }}
-        public Intensity coffeIntensity{ get { return _coffeIntensity; }}
+        public string? coffeName { get { return _coffeName; } }
+        public Intensity coffeIntensity { get { return _coffeIntensity; } }
 
         //public Coffee(Intensity PcoffeIntensity, string? PcoffeName)
         //{
@@ -23,9 +23,10 @@ namespace Lab3.task3
         //    this._coffeIntensity = PcoffeIntensity;
         //    this._coffeName = PcoffeName;
         //}
-        protected Coffee() { }
+        internal Coffee() { }
 
-        public Coffee makeCoffee(Intensity PcoffeIntensity, string? PcoffeName) {
+        internal Coffee MakeCoffee(Intensity PcoffeIntensity, string? PcoffeName)
+        {
             Console.WriteLine("Making " + PcoffeName);
             Console.WriteLine("Intensity set to " + PcoffeIntensity);
             this._coffeIntensity = PcoffeIntensity;
@@ -33,7 +34,8 @@ namespace Lab3.task3
             return this;
         }
 
-        public virtual void PrintCoffeDetails() {
+        public virtual void PrintCoffeDetails()
+        {
             Console.WriteLine("Coffe Intensity: " + coffeIntensity + "\nCoffe Name: " + coffeName);
         }
     }

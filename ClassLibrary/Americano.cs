@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3.task3
+namespace ClassLibrary
 {
-    public class Americano : Coffee
+    internal class Americano : Coffee
     {
         private int _mlOfWater;
         public int mlOfWater { get { return _mlOfWater; } set { _mlOfWater = value; } }
@@ -17,11 +17,11 @@ namespace Lab3.task3
         //    _mlOfWater = PmlOfWater;
         //}
 
-        public Americano() { }
+        internal Americano() { }
 
-        public Americano MakeAmericano(Intensity PcoffeIntensity, string? PcoffyName, int PmlOfWater)
+        internal Americano MakeAmericano(Intensity PcoffeIntensity, string? PcoffyName, int PmlOfWater)
         {
-            base.makeCoffee(PcoffeIntensity, PcoffyName);
+            base.MakeCoffee(PcoffeIntensity, PcoffyName);
             Console.WriteLine("Adding " + PmlOfWater + " mg of water");
             mlOfWater = PmlOfWater;
             return this;
