@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3.task1
+namespace Lab3.task2
 {
     public class SyrupCappuccino:Cappuccino
     {
@@ -14,6 +14,12 @@ namespace Lab3.task1
         public SyrupCappuccino(Intensity PcoffeIntensity, string? PcoffyName, int PmlOfMilk, SyrupType syrup) : base(PcoffeIntensity, PcoffyName, PmlOfMilk)
         {
             _syrup = syrup;
+        }
+
+        public override void printCoffeDetails()
+        {
+            base.printCoffeDetails();
+            Console.WriteLine("Syrup: " + syrup);
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3.task1
+namespace Lab3.task2
 {
     public class PumkinSpiceLatte:Cappuccino
     {
@@ -14,6 +14,12 @@ namespace Lab3.task1
         public PumkinSpiceLatte(Intensity PcoffeIntensity, string? PcoffyName, int PmlOfMilk, int PmgOfPumkinkSpice) : base(PcoffeIntensity, PcoffyName, PmlOfMilk)
         {
             _mgOfPumkinkSpice = PmgOfPumkinkSpice;
+        }
+
+        public override void printCoffeDetails()
+        {
+            base.printCoffeDetails();
+            Console.WriteLine("Milligrams of Pumkin Spice: " + mgOfPumkinSpice);
         }
     }
 }

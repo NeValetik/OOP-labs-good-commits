@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3.task1
+namespace Lab3.task2
 {
     public class Coffee
     {   
@@ -24,6 +25,10 @@ namespace Lab3.task1
         {
             this._coffeIntensity = PcoffeIntensity;
             this._coffeName = PcoffeName;
+        }
+
+        public virtual void printCoffeDetails() {
+            Console.WriteLine("Coffe Intensity: " + coffeIntensity + "\nCoffe Name: " + coffeName);
         }
     }
 }

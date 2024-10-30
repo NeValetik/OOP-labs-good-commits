@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3.task1
+namespace Lab3.task2
 {
     public enum SyrupType
     {
