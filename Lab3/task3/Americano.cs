@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3.task2
+namespace Lab3.task3
 {
     public class Americano : Coffee
     {
@@ -14,13 +14,14 @@ namespace Lab3.task2
 
         public Americano(Intensity PcoffeIntensity, string? PcoffyName, int PmlOfWater) : base(PcoffeIntensity, PcoffyName)
         {
+            Console.WriteLine("Adding " + PmlOfWater + " mg of water");
             _mlOfWater = PmlOfWater;
         }
 
         public override void printCoffeDetails()
         {
             base.printCoffeDetails();
-            Console.WriteLine("Milliliters of water: " + mlOfWater + " mg");
+            Console.WriteLine("Milliliters of water: " + mlOfWater);
         }
     }
 }

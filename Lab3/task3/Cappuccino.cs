@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab3.task2
+namespace Lab3.task3
 {
     public class Cappuccino : Coffee
     {
@@ -14,13 +14,14 @@ namespace Lab3.task2
 
         public Cappuccino(Intensity PcoffeIntensity, string? PcoffyName, int PmlOfMilk) : base(PcoffeIntensity, PcoffyName)
         {
+            Console.WriteLine("Adding " + PmlOfMilk + " mg of milk");
             _mlOfMilk = PmlOfMilk;
         }
 
         public override void printCoffeDetails()
         {
             base.printCoffeDetails();
-            Console.WriteLine("Milliliters of milk: " + mlOfMilk + " mg");
+            Console.WriteLine("Milliliters of milk: " + mlOfMilk);
         }
     }
 }
