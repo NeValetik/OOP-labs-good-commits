@@ -3,34 +3,39 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lab4.src.queues.interfaces;
 
-namespace Lab4.src
+
+namespace Lab4.src.queues
 {
-    internal class HighOnLifeQueue : IQueue
+    internal class ArrayQueue<T> : IQueue<T>
     {
-        public void Add(object item)
+        protected List<T> _queue = new List<T>();
+
+        public void Enqueue(T item)
         {
-            throw new NotImplementedException();
+            _queue.Add(item);
         }
 
-        public void Clear()
+        public T? Dequeue()
         {
-            throw new NotImplementedException();
+            if (_queue.Count == 0)
+                return default;
+
+            T item = _queue[0];
+            _queue.RemoveAt(0);
+            return item;
         }
 
-        public void Insert(int index, object item)
+        public T? Peek()
         {
-            throw new NotImplementedException();
+            if (_queue.Count == 0)
+                return default;
+
+            return _queue[0];
         }
 
-        public void Remove(object item)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void RemoveAt(int index)
-        {
-            throw new NotImplementedException();
-        }
+        public int Count() => _queue.Count;
+        
     }
 }

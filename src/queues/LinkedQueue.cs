@@ -3,34 +3,45 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lab4.src.queues.interfaces;
 
-namespace Lab4.src
+
+namespace Lab4.src.queues
 {
-    internal class CarQueue : IQueue
+    internal class LinkedQueue<T> : IQueue<T>
     {
-        public void Add(object item)
+        protected LinkedList<T> _list;
+
+        public LinkedQueue()
         {
-            throw new NotImplementedException();
+            _list = new LinkedList<T>();
         }
 
-        public void Clear()
+        public void Enqueue(T item)
         {
-            throw new NotImplementedException();
+            _list.AddLast(item);
         }
 
-        public void Insert(int index, object item)
+        public T? Dequeue()
         {
-            throw new NotImplementedException();
+            if (_list.Count == 0)
+                return default;
+
+            var value = _list.First!.Value;
+            _list.RemoveFirst();
+            return value;
         }
 
-        public void Remove(object item)
+        public T? Peek()
         {
-            throw new NotImplementedException();
+            if (_list.Count == 0)
+                return default;
+
+            return _list.First!.Value;
         }
 
-        public void RemoveAt(int index)
-        {
-            throw new NotImplementedException();
-        }
+        public int Count => _list.Count;
+
+        public bool IsEmpty => _list.Count == 0;
     }
 }

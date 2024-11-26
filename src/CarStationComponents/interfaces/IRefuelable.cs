@@ -8,5 +8,6 @@ namespace Lab4.src.CarStationComponents.interfaces
 {
     internal interface IRefuelable
     {
+        public void Refuel(int? carID);
     }
 }

@@ -8,5 +8,10 @@ namespace Lab4.src
 {
     internal class Car
     {
+        public required int carID { get; set; }
+        public required string type { get; set; }
+        public required string passengers { get; set; }
+        public required bool isDining { get; set; }
+        public required int consumption { get; set; }
     }
 }

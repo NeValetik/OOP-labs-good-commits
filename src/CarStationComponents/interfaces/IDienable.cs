@@ -8,5 +8,6 @@ namespace Lab4.src.CarStationComponents.interfaces
 {
     internal interface IDienable
     {
+        public void ServeDinner(int? carID);
     }
 }

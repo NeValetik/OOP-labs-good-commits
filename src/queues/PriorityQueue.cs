@@ -54,6 +54,6 @@ namespace Lab4.src.queues
             return queue.Peek();
         }
 
-        public int Count => priorityQueues.Values.Sum(q => q.Count);
+        public int Count() => priorityQueues.Values.Sum(q => q.Count);
     }
 }
