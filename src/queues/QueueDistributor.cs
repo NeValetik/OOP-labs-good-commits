@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab4.src.queues
 {
-    internal class QueueDistributor
+    public class QueueDistributor
     {
         public static IQueue<Car> GetQueue() {
             double rnd = new Random().NextDouble();

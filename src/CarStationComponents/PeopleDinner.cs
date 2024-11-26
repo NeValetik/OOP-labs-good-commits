@@ -7,7 +7,7 @@ using Lab4.src.CarStationComponents.interfaces;
 
 namespace Lab4.src.CarStationComponents
 {
-    internal class PeopleDinner : IDienable
+    public class PeopleDinner : IDienable
     {
         private static int _count = 0;
         public void ServeDinner(int? carID)

@@ -6,12 +6,20 @@ using System.Threading.Tasks;
 
 namespace Lab4.src
 {
-    internal class Car
+    public class Car
     {
-        public required int carID { get; set; }
-        public required string type { get; set; }
-        public required string passengers { get; set; }
-        public required bool isDining { get; set; }
-        public required int consumption { get; set; }
+        public int carID { get; set; }
+        public string type { get; set; }
+        public string passengers { get; set; }
+        public bool isDining { get; set; }
+        public int consumption { get; set; }
+        public Car(int carID, string type, string passengers, bool isDining, int consumption)
+        {
+            this.carID = carID;
+            this.type = type;
+            this.passengers = passengers;
+            this.isDining = isDining;
+            this.consumption = consumption;
+        }
     }
 }

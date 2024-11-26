@@ -74,6 +74,8 @@ namespace Lab4.src
                 dienablePassanger = new RobotDinner();
 
             CarStation station = new(dienablePassanger, refuelStation, QueueDistributor.GetQueue());
+            station.addCar(car);
+            station.serveCars();
         }
         public void DisplayResults()
         {
@@ -83,7 +85,6 @@ namespace Lab4.src
             Console.WriteLine("Electric station cars: " + ElectricStation.GetCount());
             Console.WriteLine("People dinner: " + PeopleDinner.GetCount());
             Console.WriteLine("Robot dinner: " + RobotDinner.GetCount());
-        }
         }
     }
 }

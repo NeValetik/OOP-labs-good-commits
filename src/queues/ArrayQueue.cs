@@ -8,7 +8,7 @@ using Lab4.src.queues.interfaces;
 
 namespace Lab4.src.queues
 {
-    internal class ArrayQueue<T> : IQueue<T>
+    public class ArrayQueue<T> : IQueue<T>
     {
         protected List<T> _queue = new List<T>();
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab4.src.CarStationComponents
 {
-    internal class RobotDinner : IDienable
+    public class RobotDinner : IDienable
     {
         private static int _count = 0;
         public void ServeDinner(int? carID)

@@ -4,13 +4,13 @@ using Lab4.src.CarStationComponents;
 
 
 
-using NUnit.Framework.Internal.Execution;
+//using NUnit.Framework.Internal.Execution;
 
 namespace Lab4.src
 {
     public class Program
     {
-        public void Main()
+        public static void Main()
         {
             Semaphore semaphore = new Semaphore();
             semaphore.ReadStream();

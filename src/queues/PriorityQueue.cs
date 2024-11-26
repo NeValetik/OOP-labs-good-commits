@@ -8,7 +8,7 @@ using Lab4.src.queues.interfaces;
 
 namespace Lab4.src.queues
 {
-    internal class PriorityQueue<T> : IQueue<T>
+    public class PriorityQueue<T> : IQueue<T>
     {
         private int _currentPriority;
         protected SortedDictionary<int, Queue<T>> priorityQueues;

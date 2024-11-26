@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab4.src.CarStationComponents.interfaces
 {
-    internal interface IDienable
+    public interface IDienable
     {
         public void ServeDinner(int? carID);
     }

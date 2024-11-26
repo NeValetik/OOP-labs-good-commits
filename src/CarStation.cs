@@ -9,7 +9,7 @@ using Lab4.src.queues.interfaces;
 
 namespace Lab4.src
 {
-    internal class CarStation
+    public class CarStation
     {
         private IDienable _dienableService;
         private IRefuelable _refuelableService;
@@ -37,6 +37,8 @@ namespace Lab4.src
         {
             _carQueue.Enqueue(car);
         }
+
+        public IQueue<Car> GetQueue() => _carQueue; 
 
     }
 }

@@ -8,7 +8,7 @@ using Lab4.src.queues.interfaces;
 
 namespace Lab4.src.queues
 {
-    internal class LinkedQueue<T> : IQueue<T>
+    public class LinkedQueue<T> : IQueue<T>
     {
         protected LinkedList<T> _list;
 
@@ -40,7 +40,7 @@ namespace Lab4.src.queues
             return _list.First!.Value;
         }
 
-        public int Count => _list.Count;
+        public int Count() => _list.Count;
 
         public bool IsEmpty => _list.Count == 0;
     }

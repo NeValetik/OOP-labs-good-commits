@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab4.src.CarStationComponents
 {
-    internal class ElectricStation : IRefuelable
+    public class ElectricStation : IRefuelable
     {
         private static int _count = 0;
         public void Refuel(int? carID)
