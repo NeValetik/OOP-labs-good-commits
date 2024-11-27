@@ -31,8 +31,8 @@ namespace Lab4.src
                 if (car == null) return;
 
                 if (car.isDining)
-                    _dienableService.ServeDinner(car.carID);
-                _refuelableService.Refuel(car.carID);
+                    _dienableService.ServeDinner(car.id);
+                _refuelableService.Refuel(car.id);
             }
         }
 

@@ -8,14 +8,14 @@ namespace Lab4.src
 {
     public class Car
     {
-        public int carID { get; set; }
+        public int id { get; set; }
         public string type { get; set; }
         public string passengers { get; set; }
         public bool isDining { get; set; }
         public int consumption { get; set; }
-        public Car(int carID, string type, string passengers, bool isDining, int consumption)
+        public Car(int id, string type, string passengers, bool isDining, int consumption)
         {
-            this.carID = carID;
+            this.id = id;
             this.type = type;
             this.passengers = passengers;
             this.isDining = isDining;

@@ -21,7 +21,11 @@ namespace Lab4.src
                 new CarStation(new RobotDinner(), new ElectricStation(), QueueDistributor.GetQueue())
             };
             Semaphore semaphore = new Semaphore(carStations);
-            semaphore.ReadStream();
+            JsonReader jsonReader = new JsonReader(semaphore);
+            jsonReader.ReadStream();
+            foreach(CarStation cs in carStations){
+                cs.serveCars();
+            }
             StatisticDisplayer.DisplayResults();
         }
     }

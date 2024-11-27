@@ -11,7 +11,7 @@ namespace Lab4.src.CarStationComponents
     {
         public static void DisplayResults()
         {
-            Console.WriteLine("\n\nWere served " + GasStation.GetCount()+ElectricStation.GetCount() + " cars.");
+            Console.WriteLine("\n\nWere served " +(GasStation.GetCount()+ElectricStation.GetCount()) + " cars.");
             Console.WriteLine("----------------------------------------");
             Console.WriteLine("Gas station cars: " + GasStation.GetCount());
             Console.WriteLine("Electric station cars: " + ElectricStation.GetCount());

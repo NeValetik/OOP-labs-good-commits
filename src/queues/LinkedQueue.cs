@@ -36,7 +36,6 @@ namespace Lab4.src.queues
         {
             if (_list.Count == 0)
                 return default;
-
             return _list.First!.Value;
         }
 

@@ -11,12 +11,12 @@ namespace Lab4.src.queues
     {
         public static IQueue<Car> GetQueue() {
             double rnd = new Random().NextDouble();
-            if (rnd < 1 / 3)
+            if (rnd < 1.0 / 3.0)
                 return new ArrayQueue<Car>();
-            if (rnd < 2 / 3 )
+            if (rnd < 2.0 / 3.0 )
                 return new LinkedQueue<Car>();
             else
-                return new PriorityQueue<Car>();
+                return new CircularQueue<Car>();
         }
     }
 }
