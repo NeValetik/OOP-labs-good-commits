@@ -1,5 +1,6 @@
 ﻿using Lab4.src.CarStationComponents.interfaces;
 using Lab4.src.CarStationComponents;
+using Lab4.src.queues;
 //using Lab4.src;
 
 
@@ -12,8 +13,16 @@ namespace Lab4.src
     {
         public static void Main()
         {
-            Semaphore semaphore = new Semaphore();
+            List<CarStation> carStations = new List<CarStation> 
+            {
+                new CarStation(new PeopleDinner(), new GasStation(), QueueDistributor.GetQueue()),
+                new CarStation(new PeopleDinner(), new ElectricStation(), QueueDistributor.GetQueue()),
+                new CarStation(new RobotDinner(), new GasStation(), QueueDistributor.GetQueue()),
+                new CarStation(new RobotDinner(), new ElectricStation(), QueueDistributor.GetQueue())
+            };
+            Semaphore semaphore = new Semaphore(carStations);
             semaphore.ReadStream();
+            StatisticDisplayer.DisplayResults();
         }
     }
 }

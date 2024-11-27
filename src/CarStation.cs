@@ -24,13 +24,16 @@ namespace Lab4.src
 
         public void serveCars() 
         {
-            Car? car = _carQueue.Dequeue();
-            
-            if (car == null) return; 
-            
-            if (car.isDining) 
-                _dienableService.ServeDinner(car.carID);
-            _refuelableService.Refuel(car.carID);
+            while (_carQueue != null)
+            {
+                Car? car = _carQueue.Dequeue();
+
+                if (car == null) return;
+
+                if (car.isDining)
+                    _dienableService.ServeDinner(car.carID);
+                _refuelableService.Refuel(car.carID);
+            }
         }
 
         public void addCar(Car car)
@@ -39,6 +42,10 @@ namespace Lab4.src
         }
 
         public IQueue<Car> GetQueue() => _carQueue; 
+
+        public IRefuelable GetRefuelable() => _refuelableService;
+
+        public IDienable GetDienable() => _dienableService;
 
     }
 }

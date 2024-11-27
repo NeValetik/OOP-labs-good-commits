@@ -8,17 +8,21 @@ namespace Lab4.src
     internal class Semaphore
     {
         private int _countdown = 0;
-        private int _totalCount = 0;
+        private List<CarStation> _carStations;
+        private HashSet<string> _processedFiles = new HashSet<string>();
 
-        public void ReadStream(int n = 5)
+        public Semaphore(List<CarStation> carStations) {
+            _carStations = carStations;
+        }
+
+        public void ReadStream(int n = 3)
         {
             int readCount = 0;
 
             do
             {
                 readCount = ReadDirectory();
-                _totalCount += readCount;
-
+                
                 if (readCount != 0)
                     _countdown = 0;
                 else
@@ -26,8 +30,6 @@ namespace Lab4.src
 
                 Thread.Sleep(n * 1000);
             } while (_countdown < 3);
-
-            DisplayResults();
         }
 
         public int ReadDirectory(string directoryPath = "output/")
@@ -39,6 +41,9 @@ namespace Lab4.src
 
                 foreach (string file in jsonFiles)
                 {
+                    if (_processedFiles.Contains(file))
+                        continue;
+
                     string? jsonString = File.ReadAllText(file);
                     if (jsonString == null)
                         continue;
@@ -48,7 +53,7 @@ namespace Lab4.src
                     {
                         Classify(car);
                         count++;
-                        File.Delete(file);
+                        _processedFiles.Add(file);
                     }
                 }
                 Console.WriteLine($"Successfully read {count} files.");
@@ -57,6 +62,7 @@ namespace Lab4.src
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
+
 
             return count;
         }
@@ -73,18 +79,10 @@ namespace Lab4.src
             else 
                 dienablePassanger = new RobotDinner();
 
-            CarStation station = new(dienablePassanger, refuelStation, QueueDistributor.GetQueue());
-            station.addCar(car);
-            station.serveCars();
-        }
-        public void DisplayResults()
-        {
-            Console.WriteLine("\n\nWere served " + _totalCount + " cars.");
-            Console.WriteLine("----------------------------------------");
-            Console.WriteLine("Gas station cars: " + GasStation.GetCount());
-            Console.WriteLine("Electric station cars: " + ElectricStation.GetCount());
-            Console.WriteLine("People dinner: " + PeopleDinner.GetCount());
-            Console.WriteLine("Robot dinner: " + RobotDinner.GetCount());
+            CarStation? station = _carStations.FirstOrDefault(cs =>
+                cs.GetRefuelable().GetType() == refuelStation.GetType() &&
+                cs.GetDienable().GetType() == dienablePassanger.GetType());
+            station?.addCar(car);
         }
     }
 }
